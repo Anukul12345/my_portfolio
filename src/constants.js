@@ -1,4 +1,4 @@
-// Skills Section Logo's
+
 import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
@@ -22,17 +22,12 @@ import mcLogo from './assets/tech_logo/mc.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 
 
-// Experience Section Logo's
-
 import internpeLogo from './assets/company_logo/internpe.jpeg'
 
-
-// Education Section Logo's
 import glaLogo from './assets/education_logo/gla_logo.png';
 import sdbLogo from './assets/education_logo/sdbLogo.jpeg';
 import vpsLogo from './assets/education_logo/vps_logo.png';
 
-// Project Section Logo's
 import circleAidLogo from './assets/work_logo/circleAid.png'
 import weatherAppLogo from './assets/work_logo/weatherAppLogo.jpg'
 
@@ -117,7 +112,7 @@ export const SkillsInfo = [
 export const education = [
   {
     id: 0,
-    img: glaLogo, // use GLA logo image
+    img: glaLogo, 
     school: "GLA University, Mathura",
     date: "Sept 2022 - June 2026",
     grade: "7.01 CGPA / 70.1%",
@@ -126,7 +121,7 @@ export const education = [
   },
   {
     id: 1,
-    img: vpsLogo, // create/import Rameshwar Prasad Inter College logo
+    img: vpsLogo, 
     school: "Rameshwar Prasad Inter College, Bhatpura, Badaun",
     date: "Apr 2018 - May 2020",
     grade: "61%",
@@ -135,7 +130,7 @@ export const education = [
   },
   {
     id: 2,
-    img: sdbLogo, // create/import S D B Public School logo
+    img: sdbLogo, 
     school: "S D B Public School, Chandausi, Bisauli, Badaun",
     date: "Apr 2016 - May 2018",
     grade: "61%",
@@ -150,20 +145,20 @@ export const projects = [
     title: "Donation Platform - Circle Aid",
     description:
       "A full-stack web platform designed to connect donors with NGOs and individuals in need. Implemented secure authentication and role-based dashboards for donors and admins. Added donation request posting, tracking, and status updates (Pending → Approved → Completed). Integrated Razorpay payment gateway for seamless online donations.",
-    image: circleAidLogo, // replace with actual project image/logo
+    image: circleAidLogo, 
     tags: ["React JS", "Node.js", "Express.js", "MongoDB", "JWT", "Razorpay", "Tailwind CSS"],
-    github: "https://github.com/Anukul12345", // update with your repo link if public
-    webapp: "https://your-live-project-link.com", // update if hosted
+    github: "https://github.com/Anukul12345",
+    webapp: "https://your-live-project-link.com", 
   },
   {
     id: 1,
     title: "Weather App",
     description:
       "A frontend project developed as part of a job-oriented course at GLA University. Built using React.js, JavaScript, and CSS, the app provides real-time weather updates. Leveraged React components and state management to make the interface interactive and user-friendly.",
-    image: weatherAppLogo, // replace with your weather app screenshot
+    image: weatherAppLogo, 
     tags: ["React JS", "JavaScript", "CSS", "API"],
-    github: "https://github.com/Anukul12345", // update with repo link
-    webapp: "https://your-weather-app-link.com", // update if deployed
+    github: "https://github.com/Anukul12345", 
+    webapp: "https://your-weather-app-link.com",
   },
   
 ];
